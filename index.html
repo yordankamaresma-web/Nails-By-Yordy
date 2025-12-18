@@ -2,161 +2,158 @@
 <html lang="es">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Nails By Yordy | Cape Coral, FL</title>
-  <meta name="description" content="Uñas & Quiropodia en Cape Coral, Florida. Citas por Booksy o WhatsApp." />
+  <meta name="description" content="Uñas & Foot Care — Nails By Yordy / Yordy’s Wellness & Foot Care en Cape Coral, Florida." />
 
   <style>
-  body{
-  margin:0;
-  font-family: system-ui, -apple-system;
-  background:#fffafc;
-  color:#1d1d1f;
-}
-
-header{
-  background:#ffffff;
-  border-bottom:1px solid #f0dfe6;
-  padding:14px 18px;
-}
-
-.wrap{
-  max-width:1000px;
-  margin:auto;
-  padding:24px;
-}
-
-.cta{
-  display:flex;
-  flex-direction:column;
-  gap:14px;
-  margin-top:24px;
-}
-
-.btn{
-  text-decoration:none;
-  padding:14px;
-  border-radius:10px;
-  text-align:center;
-  font-weight:600;
-}
-
-.whatsapp{
-  background:#25D366;
-  color:white;
-}
-
-.booksy{
-  background:#c9a227;
-  color:white;
-}
-</style>
-  "_blank">
-  </a>
-
-  <a class href= target="_blank">
-  </a>
-</section>
+    :root{
+      --pink-bg:#fffafc;
+      --pink-line:#f0dfe6;
+      --gold:#c9a227;
+      --btn:#f7c6d8;
+      --text:#1d1d1f;
+      --muted:#666;
+      --white:#fff;
+    }
+    *{ box-sizing:border-box; }
+    body{
       margin:0;
-      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial;
-      background:#fffafc;
-      color:#1d1d1f;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      background:var(--pink-bg);
+      color:var(--text);
     }
     header{
-      background:#ffffff;
-      border-bottom:1px solid #f0dfe6;
+      background:var(--white);
+      border-bottom:1px solid var(--pink-line);
       padding:14px 18px;
       position:sticky;
       top:0;
+      z-index:10;
     }
-    h1{
-      color:#c9a227;
-      font-size:34px;
-      margin-bottom:10px;
-    }
+    header strong{ font-size:18px; }
+    header small{ color:var(--muted); display:block; margin-top:2px; }
     .wrap{
-      max-width:1000px;
-      margin:auto;
+      max-width:900px;
+      margin:0 auto;
       padding:24px;
     }
+    h1{
+      margin:0 0 12px 0;
+      font-size:34px;
+      color:var(--gold);
+      letter-spacing:.2px;
+    }
+    h2{
+      margin:26px 0 10px 0;
+      font-size:26px;
+      color:#111;
+    }
+    p{
+      margin:0 0 14px 0;
+      line-height:1.55;
+      font-size:16px;
+    }
+    ul{
+      margin:10px 0 0 18px;
+      padding:0;
+      line-height:1.7;
+      font-size:16px;
+    }
+    .cta{
+      display:flex;
+      flex-direction:column;
+      gap:12px;
+      margin:18px 0 8px 0;
+    }
     .btn{
-      display:inline-block;
-      margin:8px 6px 0 0;
-      padding:12px 18px;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap:10px;
+      padding:14px 18px;
       border-radius:14px;
-      background:#f7c6d8;
-      color:#000;
-      font-weight:700;
       text-decoration:none;
+      font-weight:800;
+      border:1px solid var(--pink-line);
+      background:var(--btn);
+      color:#000;
+      width:fit-content;
     }
     .btn.gold{
-      background:#c9a227;
+      background:var(--gold);
       color:#fff;
-    }
-    section{
-      margin-top:40px;
+      border-color:rgba(0,0,0,.08);
     }
     footer{
       margin-top:60px;
       padding:20px;
       text-align:center;
       font-size:14px;
-      color:#666;
-      border-top:1px solid #f0dfe6;
+      color:var(--muted);
+      border-top:1px solid var(--pink-line);
+      background:rgba(255,255,255,.6);
+    }
+    .note{
+      font-size:13px;
+      color:var(--muted);
+      margin-top:8px;
     }
   </style>
 </head>
 
 <body>
+  <header>
+    <strong>Nails By Yordy</strong>
+    <small>Yordy’s Wellness &amp; Foot Care • Cape Coral, FL</small>
+  </header>
 
-<header>
-  <strong>Nails By Yordy</strong><br/>
-  <small>Yordy’s Wellness & Foot Care • Cape Coral, FL</small>
-</header>
+  <div class="wrap">
+    <section>
+      <h1>Bienvenida 🤍</h1>
+      <p>
+        Soy Yordy, especialista en uñas y cuidado integral del pie.
+        Mi enfoque es la belleza, el bienestar y la atención profesional.
+      </p>
 
-<div class="wrap">
+      <div class="cta">
+        <a class="btn gold" href="https://nailsbyyordy.booksy.com/a/" target="_blank" rel="noopener">
+          📅 Reservar en Booksy
+        </a>
 
-  <section>
-    <h1>Bienvenida 🤍</h1>
-    <p>
-      Soy Yordy, especialista en uñas y cuidado integral del pie.
-      Mi enfoque es la belleza, el bienestar y la atención profesional.
-    </p>
+        <!-- CAMBIA TU_NUMERO por tu número con código de país (USA = 1). Ej: 1234567890 -->
+        <a class="btn" href="https://wa.me/1TU_NUMERO" target="_blank" rel="noopener">
+          💬 WhatsApp
+        </a>
+      </div>
 
-    <a class="btn gold" href="https://nailsbyyordy.booksy.com/a/" target="_blank">
-      📅 Reservar en Booksy
-    </a>
+      <div class="note">
+        * Si quieres, me dices tu número y te lo dejo listo en el link de WhatsApp.
+      </div>
+    </section>
 
-    <!-- CAMBIA TU_NUMERO por tu WhatsApp -->
-    <a class="btn" href="https://wa.me/1TU_NUMERO" target="_blank">
-      💬 WhatsApp
-    </a>
-  </section>
+    <section>
+      <h2>Servicios</h2>
+      <ul>
+        <li>Manicure profesional</li>
+        <li>Uñas gel / extensiones</li>
+        <li>Pedicure con enfoque de bienestar</li>
+        <li>Cuidado básico del pie (Quiropodia)</li>
+      </ul>
+    </section>
 
-  <section>
-    <h1>Servicios</h1>
-    <ul>
-      <li>Manicure profesional</li>
-      <li>Uñas gel / extensiones</li>
-      <li>Pedicure con enfoque de bienestar</li>
-      <li>Cuidado básico del pie (Quiropodia)</li>
-    </ul>
-  </section>
+    <section>
+      <h2>Ubicación</h2>
+      <p>Cape Coral, Florida</p>
+    </section>
+  </div>
 
-  <section>
-    <h1>Ubicación</h1>
-    <p>Cape Coral, Florida</p>
-  </section>
+  <footer>
+    © <span id="year"></span> Nails By Yordy
+  </footer>
 
-</div>
-
-<footer>
-  © <span id="year"></span> Nails By Yordy
-</footer>
-
-<script>
-  document.getElementById("year").textContent = new Date().getFullYear();
-</script>
-
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
